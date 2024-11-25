@@ -15,25 +15,7 @@
     </div>
 
     <script>
-        // async function evaluateChecklist() {
-        //     const applicationId = document.getElementById('applicationId').value;
-        //     const response = await fetch(`/api/evaluate/${applicationId}`);
-        //     const results = await response.json();
-        //     displayResults(results);
-        // }
-
-        // function displayResults(results) {
-        //     const resultsDiv = document.getElementById('results');
-        //     resultsDiv.innerHTML = '';
-        //     results.forEach(rule => {
-        //         const resultItem = document.createElement('div');
-        //         resultItem.className = rule.result.passed ? 'passed' : 'failed';
-        //         resultItem.textContent = `${rule.name}: ${rule.result.passed ? 'Passed' : 'Failed'} - ${rule.result.message}`;
-        //         resultsDiv.appendChild(resultItem);
-        //     });
-        // }
-
-
+    
         async function evaluateChecklist() {
     const applicationId = document.getElementById('applicationId').value.trim();
     if (!applicationId) {
