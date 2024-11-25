@@ -1,0 +1,30 @@
+/* public/styles.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+}
+
+button {
+    padding: 10px;
+}
+
+#results div.passed {
+    color: green;
+}
+
+#results div.failed {
+    color: red;
+}
